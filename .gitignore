@@ -4,3 +4,5 @@ npm-debug.log
 out/
 .charted_db
 dump.rdb
+
+src/public/data
