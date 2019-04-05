@@ -487,8 +487,10 @@ export class PageController {
 
     dom.getAll('js-chartWrapper').forEach((wrapper) => {
       if (wrapper instanceof HTMLElement) {
+        // wrapper.style.height = `${dimensions.height}px`
+        // wrapper.style.width = `${dimensions.width}px`
         wrapper.style.height = `${dimensions.height}px`
-        wrapper.style.width = `${dimensions.width}px`
+        wrapper.style.width = `50%`
       }
     })
 
