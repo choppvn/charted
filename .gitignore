@@ -6,3 +6,5 @@ out/
 dump.rdb
 
 src/public/data
+*.sublime-project
+*.sublime-workspace
